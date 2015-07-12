@@ -10,10 +10,10 @@ In your app's `package.json`, you can add these tasks to the `scripts` field for
 
 ```json
 {
-  "scripts": [
+  "scripts": {
     "heroku-on": "node ./node_modules/heroku-scaler/bin/heroku-scaler.js on",
     "heroku-off": "node ./node_modules/heroku-scaler/bin/heroku-scaler.js off"
-  ]
+  }
 }
 ```
 `npm run-script heroku-on` and `npm run-script heroku-off` should now work.
